@@ -84,14 +84,14 @@ button:active {
 }
 
 .main-nav ul ul {
-  display: none;
   position: absolute;
+  display: flex;
   flex-direction: column;
+  z-index: 1;
 }
 
-.main-nav ul ul.reveal {
-  display: flex;
-  z-index: 1;
+.main-nav ul ul.hide {
+  display: none;
 }
 
 .sub::after {
